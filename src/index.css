@@ -1,0 +1,10 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .head-link-active {
+    @apply bg-purple1-400 text-white;
+  }
+}
